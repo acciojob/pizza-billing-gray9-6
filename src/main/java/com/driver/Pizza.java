@@ -85,4 +85,84 @@ public class Pizza {
         }
         return this.bill;
     }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public Boolean getVeg() {
+        return isVeg;
+    }
+
+    public void setVeg(Boolean veg) {
+        isVeg = veg;
+    }
+
+    public void setBill(String bill) {
+        this.bill = bill;
+    }
+
+    public int getExtraCheese() {
+        return extraCheese;
+    }
+
+    public void setExtraCheese(int extraCheese) {
+        this.extraCheese = extraCheese;
+    }
+
+    public boolean isExtraCheeseAdded() {
+        return isExtraCheeseAdded;
+    }
+
+    public void setExtraCheeseAdded(boolean extraCheeseAdded) {
+        isExtraCheeseAdded = extraCheeseAdded;
+    }
+
+    public int getExtraTopping() {
+        return extraTopping;
+    }
+
+    public void setExtraTopping(int extraTopping) {
+        this.extraTopping = extraTopping;
+    }
+
+    public boolean isExtraToppingAdded() {
+        return isExtraToppingAdded;
+    }
+
+    public void setExtraToppingAdded(boolean extraToppingAdded) {
+        isExtraToppingAdded = extraToppingAdded;
+    }
+
+    public int getPaperBag() {
+        return paperBag;
+    }
+
+    public void setPaperBag(int paperBag) {
+        this.paperBag = paperBag;
+    }
+
+    public boolean isPaperBagAdded() {
+        return isPaperBagAdded;
+    }
+
+    public void setPaperBagAdded(boolean paperBagAdded) {
+        isPaperBagAdded = paperBagAdded;
+    }
+
+    public int getTotalPrice() {
+        return totalPrice;
+    }
+
+    public void setTotalPrice(int totalPrice) {
+        this.totalPrice = totalPrice;
+    }
+
+    public boolean isBillGenerated() {
+        return isBillGenerated;
+    }
+
+    public void setBillGenerated(boolean billGenerated) {
+        isBillGenerated = billGenerated;
+    }
 }
